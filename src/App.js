@@ -8,6 +8,7 @@ export default function App() {
     <div className="App">
       <Header />
       <div>
+        <span>Number of Items : </span>
         <b>{count}</b>
       </div>
       <ToDoList count={count} setCount={setCount} />
