@@ -1,7 +1,15 @@
-export default function Header() {
-  return (
-    <>
-      <h1>To-Do List</h1>
-    </>
-  );
+import React from "react";
+export default class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <>
+        <h1>To-Do List</h1>
+      </>
+    );
+  }
 }
